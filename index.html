@@ -9,16 +9,23 @@
       href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
     <main>
+      <wired-card>
+        <h1>Hi, I'm Pazrin 👋</h1>
+      </wired-card>
       <header>
-        <wired-card>
-          <h1>Hi, I'm Pazrin 👋</h1>
-          <p>Muhammad Pazrin Andreanor</p>
-        </wired-card>
+        <div class="hero">
+          <wired-card>
+            <p>Muhammad Pazrin Andreanor</p>
+            <p><wired-link elevation="2" href="https://github.com/ryfazrin">Github</wired-link></p>
+          </wired-card>
+          <wired-image elevation="3" src="./assets/img/ryan.jpg" width="100px"></wired-image>
+        </div>
       </header>
       <section>
         <wired-card elevation="4">
@@ -35,10 +42,12 @@
           <p>🤔 I'm trying to do a little bit of trouble in the native app section. It amazing for me😄. Java which is transformed into kotlin without a semicolon, it presents shortcodes. or Flutter with simple and easy UI writing for multiplatform.</p>
         </wired-card>
       </section>
-      <section class="image">
-        <wired-image elevation="3" src="./assets/img/ryan.jpg" width="100px"></wired-image>
-      </section>
     </main>
+    <footer>
+      <section>
+        With ❤ Ryfazrin 2021
+      </section>
+    </footer>
   </body>
 
   <script type="module" src="https://unpkg.com/wired-elements?module"></script>

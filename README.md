@@ -1,2 +1,2 @@
 # ryfazrin-wiredjs
-Created with CodeSandbox
+My Profile Funny website
